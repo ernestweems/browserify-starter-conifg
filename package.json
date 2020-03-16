@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify src/index.js --transform babelify --outfile dist/bundle.js --debug"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babelify": "^8.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "browserify": "^16.2.2"
+  }
 }

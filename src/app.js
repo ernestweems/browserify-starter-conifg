@@ -1,6 +1,6 @@
 const MyModule = {
     check() {
-      console.log('Yahoo! modules are working!!');
+      console.log('Yahoo! modules are working!! Ahh yeah!!!!!!!');
     }
   
   }
